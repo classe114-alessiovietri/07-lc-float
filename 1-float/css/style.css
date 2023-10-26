@@ -1,0 +1,38 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 5px dashed red;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: blue;
+    float: left;
+}
+
+.pink {
+    background-color: pink;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
